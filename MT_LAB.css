@@ -1,0 +1,44 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: url("snow\ \(2\).jpg");
+  background-size: cover;
+}
+
+input {
+  height: 50px;
+  width: 450px;
+  border: 1px solid aliceblue solid;
+  border-radius: 10px;
+  opacity: 0.5;
+  color: black;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+input::placeholder {
+  font-style: italic;
+}
+button {
+  background-color: orange;
+  color: white;
+  height: 50px;
+  width: 450px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: bolder;
+ 
+}
+
+button:hover {
+  color: white;
+  background-color: aqua;
+  cursor: pointer;
+}
+button:visited {
+  image-rendering: url("file:///D:/StartupPage/assets/progress.gif");
+}
+a:link,
+a:visited {
+  color: orange;
+  text-decoration: none;
+}
