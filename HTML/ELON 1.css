@@ -1,0 +1,41 @@
+body{
+	background-image:url("Processor.jpg");
+	background-size:cover;
+}
+.input2{
+	margin-left:20px;
+	width:250px;
+	height: 40px;
+	border:2px solid;
+	border-radius: 10px;
+}
+.input1{
+	margin-left:70px;
+	width:250px;
+	height: 40px;
+	border-radius: 10px;
+	margin-top: 50px;
+}
+.input3{
+	margin-left:45px;
+	width:250px;
+	height: 40px;
+	border-radius: 10px;
+	margin-bottom:40px;
+}
+button{
+	color:white;
+	background-color:orange;
+	font-weight:bolder;
+	border:1px white solid;
+	width:400px;
+	height:50px;
+	border-radius: 10px;
+}
+button:hover{
+	color:white;
+	background-color:#3CF1E6;
+	font-weight:bolder;
+	border:1px white solid;
+	cursor: pointer;
+}
